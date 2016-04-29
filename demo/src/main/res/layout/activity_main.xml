@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yinfork.linedlayout.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <com.yinfork.linedlayout.LinedRelativeLayout
+                android:id="@+id/layout_edit"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/edit1"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:hint="@string/username"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/edit2"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/edit1"
+                    android:layout_marginTop="30dp"
+                    android:background="@null"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/edit3"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/edit2"
+                    android:layout_marginTop="30dp"
+                    android:background="@null"
+                    android:hint="@string/address"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/edit4"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/edit3"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@null"
+                    android:hint="@string/password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray" />
+            </com.yinfork.linedlayout.LinedRelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinedLayout</string>
+    <string name="username">User Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="other">Other EditText</string>
+</resources>
