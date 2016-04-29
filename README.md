@@ -59,8 +59,13 @@ java
         layout.setAnimDuration(300);
     }		
 		
+		
+## Download
 
-# Contact & Help
+[Download Demo](https://github.com/yinfork/LinedLayout/blob/master/demo.gif)
+ 		
+
+## Contact & Help
 
 Please fell free to contact me if there is any problem when using the library.
 
