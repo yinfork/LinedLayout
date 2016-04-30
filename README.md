@@ -62,7 +62,7 @@ java
 		
 ## Download
 
-[Download Demo](https://github.com/yinfork/LinedLayout/blob/master/demo.gif)
+[Download Demo](https://github.com/yinfork/LinedLayout/blob/master/apk/demo.apk)
  		
 
 ## Contact & Help
