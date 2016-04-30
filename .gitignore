@@ -18,7 +18,7 @@ Icon
 
 
 # Built application files
-*/*.apk
+# *.apk
 *.ap_
 
 # Files for the Dalvik VM
@@ -30,10 +30,14 @@ Icon
 # Generated files
 bin/
 gen/
+*/bin/
+*/gen/
 
 # Gradle files
 .gradle/
 build/
+*/build/
+*/.gradle/
 
 # Local configuration file (sdk path, etc)
 local.properties
