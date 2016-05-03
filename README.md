@@ -5,6 +5,8 @@ The Android EditText with line animation
 ## Screenshot
 ![](https://github.com/yinfork/LinedLayout/blob/master/demo.gif)
 
+![](https://github.com/yinfork/LinedLayout/blob/master/demo2.gif)
+
 ## Usage
 
 build.gradle:
